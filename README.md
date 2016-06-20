@@ -1,5 +1,23 @@
 # locationjs
-IP to location for nodejs
+IP to location for nodejs. Gives you gps location, country, city from ip address. Useful to have an idea of where you visitors are without requiring weblocation services.
+
+### Output
+
+> lookupLocation("169.239.128.130")
+
+
+```
+{ _id: 57669f576faaeb5175afc1b4,
+  locId: 377149,
+  country: 'ZA',
+  region: '11',
+  city: 'Cape Town',
+  postalCode: '7550',
+  latitude: -33.8333,
+  longitude: 18.65,
+  metroCode: '',
+  areaCode: '' }
+```
 
 ### Howto
 
